@@ -4,6 +4,9 @@ $white-color : #fff;
 
 
 header {
+    margin-top: -20px;
+    background-image: url(../assets/flower-bg.jpg);
+    background-size: cover;
     margin-bottom: 100px;
     nav.expend {
         .burger {
@@ -17,8 +20,9 @@ header {
         justify-content: space-between;
         align-items: center;
         margin-top: 20px;
-        margin-bottom: 60px;
+        margin-bottom: -75px;
         position: relative;
+        min-height: 197px;
         .burger {
             display: none;
             @media (max-width : 576px) {
@@ -62,10 +66,13 @@ header {
             }
             
 
-            li {    
+    
+            li {   
+                color: #fff;
+         
             @media (max-width : 576px) {
                 color: #fff;
-            }
+            }   
                 padding: 10px 20px;
                 transition: 350ms;
                 cursor: pointer;
@@ -96,4 +103,9 @@ header {
             }
         }
     }
+}
+
+
+.App {
+
 }

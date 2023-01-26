@@ -15,10 +15,13 @@ const Header = () => {
 
     ];
   return (
+
    <motion.header
     initial={{y : "-100vh" }}
     animate={{y :0}}
    >
+    <div className="container">
+
      <nav className={`${expend ? 'expend' : ''}`}>
         <div className="burger" onClick={() => {
             setExpedn(!expend)
@@ -44,6 +47,7 @@ const Header = () => {
             </Link>
         </div>
     </nav>
+   </div>
    </motion.header>
   )
 }

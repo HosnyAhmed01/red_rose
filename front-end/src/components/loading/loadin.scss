@@ -1,0 +1,13 @@
+.spin {
+      width : 300 ;  
+      left: '50%'; 
+      position : 'absolute'; 
+      aspect-ratio : 1;
+      top : 50%;
+      width: 200px;
+     transform: translate(-50% ,-50%);
+     margin: auto;
+        img {
+            max-width: 100%;
+        }
+}
